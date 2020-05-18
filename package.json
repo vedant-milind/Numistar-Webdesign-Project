@@ -1,0 +1,30 @@
+{
+  "name": "numistar",
+  "version": "1.0.0",
+  "description": "Website designing for Honors",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedant-milind/Project-Repository-Numistar.git"
+  },
+  "author": "Vedant Athavale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedant-milind/Project-Repository-Numistar/issues"
+  },
+  "homepage": "https://github.com/vedant-milind/Project-Repository-Numistar#readme"
+}
