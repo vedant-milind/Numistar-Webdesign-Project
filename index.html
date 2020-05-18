@@ -9,41 +9,199 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- <link rel="stylesheet" href="css/projectstyles.css"> -->
+        <link rel="stylesheet" href="projectstyles.css">
 
         <title>Numistar</title>
     </head>       
     
 <body>
-   <header>
+
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
+            </button> 
+            <a class="navbar-brand ml-3 mr-0 " href="#"><img src="images/logo.png" height="50" width="70" loading="lazy" >NUMISTAR</a>
             <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Collection</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg ml-5"></span>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg ml-5"></span>About</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg ml-5"></span>Collection</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg ml-5"></span>Contact</a></li>
                 </ul>
-                <!-- <span class="navbar-text">
+                <span class="navbar-text mr-4">
                     <a data-toggle="modal" id="loginButton">
-                    <span class="fa fa-sign-in"></span> Login</a>
-                </span>             -->
+                    <span class="fa fa-lg fa-sign-in mr-2"></span>CONNECT WITH US !</a>
+                </span>            
             </div>
         </div>
     </nav>
-   </header> 
+   
 
-    </footer>
+       <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">IT'S THE TIME TO GET CONNECTED !</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Do you want us to remember you ?
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto align-left" data-dismiss="modal">Meh.</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1 align-left">Enter our World !</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron"> 
+        <div id="list-example" class="list-group align-left">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">USA</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">UK</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Thailand</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Egypt</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner align-items-center" role="listbox">
+                        
+                        <div class="carousel-item active">>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1><span class="badge badge-danger">WHAT DO WE ACTUALLY COLLECT AND SHOWCASE ?</span> <span class="badge badge-pill badge-default">IT's HOT !</span></h2>
+                                <p class="d-none d-sm-block">We love to collect different types of things which includes souvenirs from different countries, but whats our speciality ?<br> Swipe for more information</p>
+                            </div>
+                            <div class="carousel-caption d-block d-sm-none ">
+                                <h2><span class="badge badge-danger">Swipe<br>It !</span></h2>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="images/stamp-icon.png"alt="Stamps">
+                            <div class="carousel-caption toit d-none d-md-block">
+                                <h2><span class="badge badge-danger">STAMPS</span> </h2>
+                                <p class="d-none d-sm-block">Stamps wasn't our thing before but has now became an<br> inseparable part of our collection.<br>
+                                Now just more than collecting them, we have decided<br> to bring them out in front of the world for everyone to see them.</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                            src="images/coins.png" alt="COINS">
+                            <div class="carousel-caption toit d-none d-md-block">
+                                <h2><span class="badge badge-danger">COINS  </span><span class="badge badge-pill badge-default">: WHERE OUR HEART RESIDE </span></h2>
+                                <p class="d-none d-sm-block">Its been more than 10 years we are collecting coins.<br> Sometimes, we don't realize but everyone of us is a collector.<br> We have been collecting coins of different denomination<br> with different designs on it. We did the same and here we are today</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="images/banknotes.png"alt="banknotes">
+                            <div class="carousel-caption toit d-none d-md-block">
+                                <h2><span class="badge badge-danger">BANKNOTES</span><span class="badge badge-pill badge-default">: THE DREAM OF MANY </span> </h2>
+                                <p class="d-none d-sm-block">Unlike coins and stamps banknotes are always the expensive segment <br>of  collection. Not everyone steps into it without any prior expertise.<br>Yes, we do collect them as per our affordability , but <br>it has always remained a dream of many collectors.</p>
+                            </div>
+                        </div>
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#mycarousel" data-slide-to="1"></li>
+                            <li data-target="#mycarousel" data-slide-to="2"></li>
+                            <li data-target="#mycarousel" data-slide-to="3"></li>
+                        </ol>
+                        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                            <span id="carousel-button-icon" class="fa fa-pause"></span>
+                        </button>
+                    </div>    
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+      
+    <!-- <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+        <h4 id="list-item-1"></h4>
+        <p></p>
+        <h4 id="list-item-2">Item 2</h4>
+        <p>...</p>
+        <h4 id="list-item-3">Item 3</h4>
+        <p>...</p>
+        <h4 id="list-item-4">Item 4</h4>
+        <p>...</p>
+    </div>
+         -->
+
+
+   <footer class="footer static-bottom">
+    <div class="container">
+        <div class="row">             
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./aboutus.html">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-7 col-sm-5">
+                <h5>Our Working Station</h5>
+                <address>
+                  Solely Online and in exhibitions<br>
+                  <i class="fa fa-phone fa-lg"></i>:+91 9004188281<br>
+                  <i class="fa fa-envelope fa-lg"></i>:<a href="newmm727699@gmail.com">newmm727699@gmail.com</a>
+               </address>
+            
+            </div>
+       </div>
+       <div class="row justify-content-center">             
+            <div>
+                <p>© We got no copyrights, we believe in Expansion</p>
+            </div>
+       </div>
+    </div>
+   
+   </footer>
+
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+   
+   
 
 </body> 
 </html>   
