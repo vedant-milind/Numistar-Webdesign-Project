@@ -18,10 +18,10 @@
 
 
 .jumbotron{
-    padding: 30px 30px 30px 30px;
+    padding: 50px 50px 50px 50px;
     margin: 0px;
     background-color: rgb(236, 179, 19);
-    color: floralwhite;
+    color:#0f0f0f;
 
 }
 
@@ -43,7 +43,7 @@ body{
 
 .navbar-dark {
      background-color: rgb(167, 39, 17);
-     height: 12.5%;
+     
 }
 
 
@@ -55,6 +55,7 @@ body{
 }
 
 .carousel {
+    margin-top: 2cm;
     background:#512DA8;
 }
 
@@ -77,12 +78,12 @@ body{
 }
 
 .modal-header {
-    background-image:url("images/modal-header.jpg"); }
+    background-image:url("images/gradient.jpg") }
     .modal-header button {
       color:#ddd }
   
   .modal-title {
-    color: rgb(7, 5, 1); }
+    color:#ddd; }
   
   .modal-body {
     background-color: #D1C4E9; }
@@ -95,7 +96,7 @@ body{
 }    
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:1000px){
     .collapse{
         background:rgb(170, 51, 36);
     }
@@ -125,4 +126,69 @@ body{
 
 .amy{
     background-color: antiquewhite;
+}
+
+.charles{
+    background-color: antiquewhite;
+}
+
+/* .jumbo{
+    background-image:url("images/header.jpg");
+    margin-top: 1cm;
+    height: 4cm;
+    font-display:center ;
+}
+
+.diaz{
+    margin-top: 0.8cm;
+    font-family: monospace;
+    font-size: 0.5cm;
+    color: #ddd;
+    background-image: url("images/gradient.jpg");
+    padding-right: 0cm;
+}
+
+.pimento{
+    margin-top: -3cm;
+}
+
+.scully {
+    padding: 4px;
+    width: 5cm;
+    /* font-style: italic; */
+    /* float: right;
+    font-family: monospace;
+    font-size: 20px;
+}*/
+
+
+.hitchcock{
+    font-family: monospace;
+    font-size: 1cm;
+
+}
+
+.scully{
+    padding: 4px;
+    width: 5cm;
+    font-family: monospace;
+    font-size: 20px;
+    float:right;
+}
+
+.gina{
+    padding-left: 2mm;
+}
+
+/* .terry{
+    border: 1px solid;
+    padding: 2mm 2mm 0mm 2mm;
+} */
+
+
+@media screen and (min-width:720px)
+{
+.pontiacguy{
+    margin-left: 5.5cm;
+}
 }

@@ -20,13 +20,14 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button> 
-            <a class="navbar-brand ml-3 mr-0 " href="#"><img src="images/logo.png" height="50" width="70" loading="lazy" >NUMISTAR</a>
+            <a class="navbar-brand ml-3 mr-0 " href="./index.html"><img src="images/logo.png" height="50" width="70" loading="lazy" >NUMISTAR</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg mr-0"></span>Home</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg ml-5"></span>About</a></li> -->
                     <!-- <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg ml-5"></span>Collection</a></li> -->
                     <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-list fa-lg ml-5"></span>Collection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./connect.html"><span class="fa fa-globe fa-lg ml-5"></span>Connect</a></li>
                 </ul>
                 <!-- <span class="navbar-text mr-4">
                     <a data-toggle="modal" id="loginButton">
@@ -36,12 +37,23 @@
         </div>
     </nav>
 <body class="amy">
+
+    <header class="jumbotron"> 
+        <div id="list-example" class="list-group align-left">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">France</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Germany</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Nigeria</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Philippines</a>
+        </div>
+    </header>
     
     <!-- <div class="container mx-auto"> -->
     
+        
         <!-- <div class="row row-content"> -->
-            <div class="col-12 col-sm-12 noice">
-                <h2>COINS &amp; ITS INFO</h2>
+            <div class="col-12 col-sm-11 noice mx-auto">
+                <h2>A COIN &amp; ITS INFO</h2>
+                <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example"></div>
                 <div class="table-responsive">
                     <table class="table table-bordered table-dark">
                         <thead class="thead-dark">
@@ -54,28 +66,28 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th>France</th>
+                                <th id="list-item-1" class="align-middle">France</th>
                                 <td><img class="france" src="images/France.jpg" height="300cm" width="400cm"><br><img class="france" src="images/France 2.jpg" height="300cm" width="400cm"></td>
-                                <td>French Franc coins were replaced by Euro coins in 2002 when the Euro became France’s national currency. The exchange deadline for French pre-euro coins expired in 2005. Since then, franc and centimes coins from France no longer have a monetary value.</td>
-                                <td><a href="https://www.worldatlas.com/articles/what-is-the-currency-of-france.html">https://www.worldatlas.com/articles/what-is-the-currency-of-france.html</a><br><a href="https://www.britannica.com/topic/franc">https://www.britannica.com/topic/franc</a></a></td>
+                                <td class="align-middle">French Franc coins were replaced by Euro coins in 2002 when the Euro became France’s national currency. The exchange deadline for French pre-euro coins expired in 2005. Since then, franc and centimes coins from France no longer have a monetary value.</td>
+                                <td class="align-middle"><a href="https://www.worldatlas.com/articles/what-is-the-currency-of-france.html">https://www.worldatlas.com/articles/what-is-the-currency-of-france.html</a><br><a href="https://www.britannica.com/topic/franc">https://www.britannica.com/topic/franc</a></a></td>
                             </tr>
                             <tr>
-                                <th>Germany</th>
+                                <th id="list-item-2" class="align-middle">Germany</th>
                                 <td><img class="france" src="images/Germany.jpg" height="300cm" width="400cm"><br><img class="france" src="images/Germany 2.jpg" height="300cm" width="400cm"></td>
-                                <td>The German mark had a reputation as one of the world's most stable currencies; this was based on the monetary policy of the Bundesbank. The policy was "hard" in relation to the policies of certain other central banks in Europe. The "hard" and "soft" was in respect to the aims of inflation and political interference. This policy was the foundation of the European Central Bank's present policy[clarification needed] towards the euro</td>
-                                <td><a href="https://en.wikipedia.org/wiki/Currency_of_Germany">https://en.wikipedia.org/wiki/Currency_of_Germany</a><br><a href="https://www.worldatlas.com/articles/what-is-the-currency-of-germany.html">https://www.worldatlas.com/articles/what-is-the-currency-of-germany.html</a></td>
+                                <td class="align-middle">The German mark had a reputation as one of the world's most stable currencies; this was based on the monetary policy of the Bundesbank. The policy was "hard" in relation to the policies of certain other central banks in Europe. The "hard" and "soft" was in respect to the aims of inflation and political interference. This policy was the foundation of the European Central Bank's present policy[clarification needed] towards the euro</td>
+                                <td class="align-middle"><a href="https://en.wikipedia.org/wiki/Currency_of_Germany">https://en.wikipedia.org/wiki/Currency_of_Germany</a><br><a href="https://www.worldatlas.com/articles/what-is-the-currency-of-germany.html">https://www.worldatlas.com/articles/what-is-the-currency-of-germany.html</a></td>
                             </tr>
                             <tr>
-                                <th>Nigeria</th>
+                                <th id="list-item-3" class="align-middle">Nigeria</th>
                                 <td><img class="france" src="images/Nigeria.jpg" height="300cm" width="400cm"></td>
-                                <td>The inaugural coins of Nigeria's currency featured the bronze 1/2 and one coins and the cupro-nickel 5, 10, and 25 coins. The 1/2 kobo coins were however not minted the following year. Smaller copper-plated-steel 1, 10, and 25 kobo coins were disbursed in 1991 in addition to 50 kobo and 1 naira nickel-plated steel coins.</td>
-                                <td><a href="https://www.xe.com/currency/ngn-nigerian-naira">https://www.xe.com/currency/ngn-nigerian-naira</a><br><a href="https://www.worldatlas.com/articles/what-is-the-currency-of-nigeria.html">https://www.worldatlas.com/articles/what-is-the-currency-of-nigeria.html</a></a></td>
+                                <td class="align-middle">The inaugural coins of Nigeria's currency featured the bronze 1/2 and one coins and the cupro-nickel 5, 10, and 25 coins. The 1/2 kobo coins were however not minted the following year. Smaller copper-plated-steel 1, 10, and 25 kobo coins were disbursed in 1991 in addition to 50 kobo and 1 naira nickel-plated steel coins.</td>
+                                <td class="align-middle"><a href="https://www.xe.com/currency/ngn-nigerian-naira">https://www.xe.com/currency/ngn-nigerian-naira</a><br><a href="https://www.worldatlas.com/articles/what-is-the-currency-of-nigeria.html">https://www.worldatlas.com/articles/what-is-the-currency-of-nigeria.html</a></a></td>
                             </tr>
-                            <tr>
-                                <th>Philippines</th>
+                            <tr> 
+                                <th id="list-item-4" class="align-middle">Philippines</th>
                                 <td><img class="france" src="images/Philippines.jpg" height="300cm" width="400cm"></td>
-                                <td>The Philippine peso is derived from the Spanish peso or pieces of eight brought over in large quantities by the Manila galleons of the 16th to 19th centuries. From the same Spanish peso or dollar is derived the various pesos of Latin America, the dollars of the US and Hong Kong, as well as the Chinese yuan and the Japanese yen.</td>
-                                <td><a href="https://www.xe.com/currencyconverter/convert/?From=PHP&To=USD">https://www.xe.com/currencyconverter/convert/?From=PHP&To=USD</a><br><a href="https://www.worldatlas.com/articles/what-is-the-currency-of-the-philippines.html">https://www.worldatlas.com/articles/what-is-the-currency-of-the-philippines.html</a></td>
+                                <td class="align-middle">The Philippine peso is derived from the Spanish peso or pieces of eight brought over in large quantities by the Manila galleons of the 16th to 19th centuries. From the same Spanish peso or dollar is derived the various pesos of Latin America, the dollars of the US and Hong Kong, as well as the Chinese yuan and the Japanese yen.</td>
+                                <td class="align-middle"><a href="https://www.xe.com/currencyconverter/convert/?From=PHP&To=USD">https://www.xe.com/currencyconverter/convert/?From=PHP&To=USD</a><br><a href="https://www.worldatlas.com/articles/what-is-the-currency-of-the-philippines.html">https://www.worldatlas.com/articles/what-is-the-currency-of-the-philippines.html</a></td>
                             </tr>
                         </tbody>
                     </table>
@@ -85,20 +97,46 @@
             </div>
         </div>
     <!-- </div> -->
-    
-    
-    
-    
 
+    <footer class="footer static-bottom">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">Collection</a></li>
+                        <li><a href="./connect.html">Connect</a></li>
+                        <!-- <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Working Station</h5>
+                    <address>
+                      Solely Online and in exhibitions<br>
+                      <i class="fa fa-phone fa-lg"></i>:+91 9004188281<br>
+                      <i class="fa fa-envelope fa-lg"></i>:<a href="https://www.gmail.com">newmm727699@gmail.com</a>
+                   </address>
+                
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div>
+                    <p>© We got no copyrights, we believe in Expansion<br>Designed and Owned by: Vedant Milind Athavale
+                    </p>
+                </div>
+           </div>
+        </div>
+       
+       </footer>
     
     
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+       <script src="js/scripts.js"></script>
 
 
 </body>    
+</html>
