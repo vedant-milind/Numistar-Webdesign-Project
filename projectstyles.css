@@ -73,7 +73,7 @@ body{
     right:0px;
     position: absolute;
     bottom: 0px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .modal-header {
@@ -99,4 +99,16 @@ body{
     .collapse{
         background:rgb(170, 51, 36);
     }
+}
+
+.carousel-control-prev-icon{
+    z-index: 2;
+}
+
+.carousel-control-next-icon{
+    z-index: 2;
+}
+
+.navbar-toggler-icon{
+    z-index: 2;
 }
